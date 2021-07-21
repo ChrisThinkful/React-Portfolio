@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../App.css';
+import MailTo from '../MailTo';
 
 function Contact() {
     return (
@@ -15,9 +16,9 @@ function Contact() {
                     </div>
                 </div>
                 <div className="contact-media">
-                    <Link to='/' className="contact-links"><i class="fab fa-linkedin"/>&nbsp;LinkedIn</Link>
-                    <Link to='/' className="contact-links"><i class="fab fa-github-square"/>&nbsp;GitHub</Link>
-                    <Link to='/' className="contact-links"><i class="fas fa-envelope-square"/>&nbsp;Email</Link>
+                    <Link to='https://www.linkedin.com/in/chrisclark90/' className="contact-links"><i class="fab fa-linkedin"/>&nbsp;LinkedIn</Link>
+                    <Link to='https://github.com/ChrisThinkful' className="contact-links"><i class="fab fa-github-square"/>&nbsp;GitHub</Link>
+                    <ButtonMailto mailto="mailto:chris.clark913@gmail.com" />
                 </div>
             </div>
         </>
