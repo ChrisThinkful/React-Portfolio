@@ -18,7 +18,7 @@ function Contact() {
                 <div className="contact-media">
                     <Link to='https://www.linkedin.com/in/chrisclark90/' className="contact-links"><i class="fab fa-linkedin"/>&nbsp;LinkedIn</Link>
                     <Link to='https://github.com/ChrisThinkful' className="contact-links"><i class="fab fa-github-square"/>&nbsp;GitHub</Link>
-                    <ButtonMailto mailto="mailto:chris.clark913@gmail.com" />
+                    <Mailto mailto="mailto:chris.clark913@gmail.com" />
                 </div>
             </div>
         </>
