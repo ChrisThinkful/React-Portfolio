@@ -29,9 +29,6 @@ function App() {
           <Route path='/contact' component={Contact} />
         </Switch>
       </Router>
-      <footer className='footer'>
-          <i class="far fa-copyright">&nbsp;Chris Clark | All Rights Reserved</i>
-      </footer>
     </>
   );
 }
