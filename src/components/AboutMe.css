@@ -55,6 +55,13 @@
   .responsive {
     width: 30%;
     height: auto;
+    border-radius: 3%;
+  }
+
+  .responsive-circle {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
   }
   
   .biography-links {

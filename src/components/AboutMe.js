@@ -16,6 +16,7 @@ function AboutMe() {
                     {/* Make the font larger and not bold */}
                     <div className="biography"> 
                     <p>My name is Chris and I am a Dallas, TX-based Full Stack Software Engineer/Web Developer and graduate from Thinkful-Chegg's Software Engineering Immersion program. </p>
+                    <img src='images/wedding photo.jpg' alt='Chris and Mack' className='responsive-circle' />
                     <p>For as long as I can remember, I have had a passion for deconstructing and rebuilding 
                         things. I would take apart remotes and toys and then put them back together. As I grew 
                         older, remotes and toys became computers and consoles. Nowadays, I find I spend a lot 
