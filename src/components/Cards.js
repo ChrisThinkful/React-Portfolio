@@ -11,14 +11,14 @@ function Card() {
                     <ul className="cards__items">
                         <CardItem 
                         src=''
-                        text='A library application created using HTML, CSS, and JavaScript.'
+                        text='A library application created using HTML, CSS, and Javascript.'
                         altText='Library App'
                         label='Track Your Books'
                         path='https://github.com/ChrisThinkful/library'
                         />
                         <CardItem 
                         src='' 
-                        text='Do some quick maths with this Calculation'
+                        text='Do some quick maths with this Calculator built with HTML, CSS, and Javascript'
                         altText='Calculator App'
                         label='Calculator'
                         path='https://github.com/ChrisThinkful/Calculator'
