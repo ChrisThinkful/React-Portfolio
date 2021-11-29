@@ -10,7 +10,7 @@ function Card() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem 
-                        src='public/images/Library.gif'
+                        src='/images/Library.gif'
                         text='A library application created using HTML, CSS, and Javascript.'
                         altText='Library App'
                         label='Track Your Books'
